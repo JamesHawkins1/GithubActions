@@ -118,9 +118,9 @@ public class Power
     [TestMethod]
     public void Power_Valid_Hawkins()
     {
-        Assert.AreEqual(3, Program.Power("5", "2"));
-        Assert.AreEqual(0, Program.Power("3", "3"));
-        Assert.AreEqual(-1, Program.Power("4", "5"));
+        Assert.AreEqual(4, Program.Power("2", "2"));
+        Assert.AreEqual(1, Program.Power("3", "0"));
+        Assert.AreEqual(1024, Program.Power("4", "5"));
     }
 
     [TestMethod]
